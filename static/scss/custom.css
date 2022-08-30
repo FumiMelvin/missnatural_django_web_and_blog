@@ -1,16 +1,7 @@
-// Then add additional custom code here
-$primary: rgb(255, 255, 255);
-$light: rgb(241, 241, 241);
-$secondary: #7ac297;
-$info: rgb(133, 21, 154);
-
 .bg-website {
-  background-image: url("../images/bg-img.png");
+  background-image: url("../images/bg-img.png") !important;
 }
 
 .bg-blog {
-  background-image: url("../images/triangles.png");
+  background-image: url("../images/triangles.png") !important;
 }
-
-@import "../bootstrap/scss/bootstrap";
-@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
