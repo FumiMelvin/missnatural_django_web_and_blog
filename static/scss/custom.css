@@ -17,3 +17,7 @@
 .text-info {
   color: rgb(133, 21, 154) !important; 
 }
+
+.btn-info {
+  background-color: rgb(133, 21, 154) !important; 
+}
