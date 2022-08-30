@@ -1,0 +1,18 @@
+{% for event in events%}
+<section id="events" class="container my-5">
+  <h1 class="text-center mb-4">Upcoming Events</h1>
+  <div class="row">
+    <h3 class="text-center">{{ event.title}}</h3>
+
+    <div class="col-md d-flex justify-content-center align-items-center">
+      <img src="{{event.poster.url}}" alt="" class="w-50" />
+    </div>
+    <div class="col-md d-flex justify-content-center align-items-center">
+      <div class="">
+        <small>{{event.description|safe}}</small>
+        {{event.eventDetails|safe}}
+      </div>
+    </div>
+  </div>
+</section>
+{% endfor %}
